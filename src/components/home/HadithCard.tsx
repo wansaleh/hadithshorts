@@ -12,9 +12,9 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
       key={hadith.slug}
       className="aspect-[25/40] p-8 rounded-3xl border-4 border-current relative"
     >
-      <div className="-z-0 absolute bottom-2 right-4 text-8xl font-bold tracking-tighter leading-none opacity-5">
+      {/* <div className="-z-0 absolute bottom-2 right-4 text-8xl font-bold tracking-tighter leading-none opacity-5">
         {hadith.number}
-      </div>
+      </div> */}
 
       <div className="flex relative z-10 flex-col h-full">
         {hadith.topics && (
