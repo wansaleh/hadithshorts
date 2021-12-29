@@ -4,12 +4,12 @@ import { useRouter } from 'next/router';
 import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
-  title: 'By Wan Saleh',
-  siteName: 'By Wan Saleh',
-  description:
-    'Producer, composer, mixer and mastering engineer. Coder at night.',
-  url: 'https://wansaleh.com',
-  image: 'https://wansaleh.com/favicon/large-og.jpg',
+  title: 'Hadith Shorts',
+  siteName: 'Hadith Shorts',
+  description: 'Hadith Shorts.',
+  url: 'https://hadith.wansaleh.com',
+  image:
+    'https://og.wansaleh.com/api/og?siteName=Hadith Shorts&description=Memorisable Hadiths by Prophet Muhammad SAW',
   type: 'website',
   robots: 'follow, index',
 };
