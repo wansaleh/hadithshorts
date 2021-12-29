@@ -4,12 +4,12 @@ import { useRouter } from 'next/router';
 import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
-  title: 'Hadith-hadith Pendek',
-  siteName: 'Hadith-hadith Pendek',
+  title: 'Hadith-hadith Ringkas',
+  siteName: 'Hadith-hadith Ringkas',
   description: 'Hadith-hadith yang mudah dihafal dari Nabi Muhammad SAW.',
   url: 'https://hadith.wansaleh.com',
   image:
-    'https://og.wansaleh.com/api/og?siteName=Hadith-hadith Pendek&description=Hadith-hadith yang mudah dihafal dari Nabi Muhammad SAW.',
+    'https://og.wansaleh.com/api/og?siteName=Hadith-hadith Ringkas&description=Hadith-hadith yang mudah dihafal dari Nabi Muhammad SAW.',
   type: 'website',
   robots: 'follow, index',
 };

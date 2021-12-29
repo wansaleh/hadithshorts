@@ -3,4 +3,4 @@ title: Menjaga Lidah
 narrator: Bukhari dan Muslim
 ---
 
-Allah becomes jealous [of His honor] and that is when the believer does something He has forbidden.
+Allah menjadi cemburu [terhadap kemuliaanNya] dan ketika itulah seorang mukmin melakukan sesuatu yang dilarangNya.
