@@ -1,6 +1,6 @@
 ---
 number: 10
-title: Keutamaan Menjadi Muslim
+title: Keutamaan Seorang Muslim
 narrator: Bukhari dan Muslim
 topics:
 - Islam
