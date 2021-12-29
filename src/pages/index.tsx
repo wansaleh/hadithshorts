@@ -1,8 +1,4 @@
-// import { shuffle } from 'lodash-es';
-import clsx from 'clsx';
-import { uniq } from 'lodash-es';
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
-import { useState } from 'react';
 
 import { getAllHadiths, getAllTopics, Hadith, Topic } from '@/lib/hadiths';
 
