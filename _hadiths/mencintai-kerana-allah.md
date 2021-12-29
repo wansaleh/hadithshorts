@@ -1,4 +1,5 @@
 ---
+number: 48
 title: Mencintai Kerana Allah
 narrator: Muslim
 ---
