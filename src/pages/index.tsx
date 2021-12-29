@@ -1,5 +1,5 @@
 import { shuffle } from 'lodash-es';
-import { GetStaticProps, InferGetStaticPropsType } from 'next';
+import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 
 import { getAllHadiths, Hadith } from '@/lib/hadiths';
 
@@ -8,7 +8,7 @@ import HadithCards from '@/components/home/HadithCards';
 import Nav from '../components/Nav';
 import Seo from '../components/Seo';
 
-export const getServerSideProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const hadiths: Hadith[] = shuffle(getAllHadiths());
 
   return {
@@ -20,7 +20,7 @@ export const getServerSideProps: GetStaticProps = async () => {
 
 export default function Home({
   hadiths,
-}): InferGetStaticPropsType<typeof getStaticProps> {
+}): InferGetServerSidePropsType<typeof getServerSideProps> {
   return (
     <>
       <Seo templateTitle="Home" />
