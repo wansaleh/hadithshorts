@@ -2,6 +2,8 @@
 number: 11
 title: Hak Sesama Muslim
 narrator: Bukhari dan Muslim
+topics:
+- Hak Muslim
 ---
 
 Seorang Muslim mempunyai lima hak atas Muslim yang lain:

@@ -2,6 +2,9 @@
 number: 20
 title: Tanda-tanda Orang Munafik
 narrator: Bukhari dan Muslim
+topics:
+- Munafik
+- Sikap
 ---
 
 Tanda-tanda orang munafik ada tiga:

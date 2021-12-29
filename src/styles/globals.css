@@ -7,6 +7,10 @@ html {
   /* font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; */
 }
 
+body {
+  @apply dark:bg-black dark:text-white text-black bg-white;
+}
+
 /* h1 {
   @apply lg:text-6xl text-4xl;
 }

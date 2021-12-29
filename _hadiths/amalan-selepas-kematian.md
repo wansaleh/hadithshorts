@@ -2,6 +2,8 @@
 number: 33
 title: Amalan Selepas Kematian
 narrator: Muslim
+topics:
+- Kematian
 ---
 
 Apabila seseorang meninggal dunia, maka terputuslah segala amalannya kecuali tiga perkara:
