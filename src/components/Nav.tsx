@@ -15,24 +15,26 @@ export default function Nav() {
         </Link> */}
       </li>
 
-      <ul className="flex">
-        <li className="ml-3">
-          <button
-            type="button"
-            className="text-lg font-bold"
-            onClick={(e) => {
-              e.preventDefault();
-              setTheme(
-                themes[
-                  (themes.findIndex((t) => t === theme) + 1) % themes.length
-                ]
-              );
-            }}
-          >
-            {themesMalay[themes.findIndex((t) => t === theme)]}
-          </button>
-        </li>
-      </ul>
+      <li>
+        <ul className="flex">
+          <li className="ml-3">
+            <button
+              type="button"
+              className="text-lg font-bold"
+              onClick={(e) => {
+                e.preventDefault();
+                setTheme(
+                  themes[
+                    (themes.findIndex((t) => t === theme) + 1) % themes.length
+                  ]
+                );
+              }}
+            >
+              {themesMalay[themes.findIndex((t) => t === theme)]}
+            </button>
+          </li>
+        </ul>
+      </li>
     </ul>
   );
 }

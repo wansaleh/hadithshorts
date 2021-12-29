@@ -46,9 +46,9 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
 
         <div className="flex-1" />
 
-        <div className="mt-4">
-          <span className="text-gray-500">Riwayat</span>{' '}
-          <span>{hadith.narrator}</span>
+        <div className="mt-4 font-light">
+          <span>Riwayat</span>{' '}
+          <span className="font-bold">{hadith.narrator}</span>
         </div>
       </div>
     </div>
