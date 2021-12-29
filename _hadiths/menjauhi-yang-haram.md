@@ -6,4 +6,4 @@ topics:
 - Sikap
 ---
 
-Allah menjadi cemburu [terhadap kemuliaan-Nya] dan ketika itulah seorang mukmin melakukan sesuatu yang dilarang-Nya.
+Allah menjadi cemburu [terhadap kemuliaanNya] dan ketika itulah seorang mukmin melakukan sesuatu yang dilarangNya.
