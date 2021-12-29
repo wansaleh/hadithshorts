@@ -1,4 +1,5 @@
 ---
+number: 7
 title: Keutamaan Umrah dan Haji
 narrator: Bukhari dan Muslim
 ---

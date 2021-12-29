@@ -1,5 +1,6 @@
 ---
-title: Mempersekutukan Allah dalam Perbuatan
+number: 37
+title: Mempersekutukan Allah dalam Amalan
 narrator: Muslim
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Apa yang Perlu Dikatakan Semasa Meninggal Dunia
+number: 34
+title: Apa Yang Perlu Disebut Semasa Kematian
 narrator: Muslim
 ---
 

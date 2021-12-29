@@ -1,5 +1,6 @@
 ---
-title: Perbuatan Selepas Kematian
+number: 33
+title: Amalan Selepas Kematian
 narrator: Muslim
 ---
 

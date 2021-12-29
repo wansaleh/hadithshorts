@@ -1,4 +1,5 @@
 ---
+number: 27
 title: Penghapusan Dosa
 narrator: Muslim
 ---

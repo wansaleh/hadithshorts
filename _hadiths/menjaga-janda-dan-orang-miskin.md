@@ -1,4 +1,5 @@
 ---
+number: 9
 title: Menjaga Janda dan Orang Miskin
 narrator: Bukhari dan Muslim
 ---

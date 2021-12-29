@@ -1,4 +1,5 @@
 ---
+number: 28
 title: Puasa dan Solat Terbaik
 narrator: Muslim
 ---

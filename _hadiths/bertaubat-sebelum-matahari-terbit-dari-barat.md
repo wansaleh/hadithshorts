@@ -1,4 +1,5 @@
 ---
+number: 29
 title: Bertaubat Sebelum Matahari Terbit dari Barat
 narrator: Muslim
 ---

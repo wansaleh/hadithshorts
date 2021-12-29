@@ -1,4 +1,5 @@
 ---
+number: 2
 title: Menjaga Ibu Bapa
 narrator: Bukhari dan Muslim
 ---

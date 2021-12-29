@@ -1,4 +1,5 @@
 ---
+number: 12
 title: Menghadiri Pengebumian
 narrator: Bukhari dan Muslim
 ---

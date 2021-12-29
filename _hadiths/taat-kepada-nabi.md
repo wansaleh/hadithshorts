@@ -1,4 +1,5 @@
 ---
+number: 23
 title: Taat Kepada Nabi
 narrator: Bukhari
 ---

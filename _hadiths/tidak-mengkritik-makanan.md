@@ -1,4 +1,5 @@
 ---
+number: 13
 title: Tidak Mengkritik Makanan
 narrator: Bukhari dan Muslim
 ---

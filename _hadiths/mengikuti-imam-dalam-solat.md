@@ -1,4 +1,5 @@
 ---
+number: 18
 title: Mengikuti Imam dalam Solat
 narrator: Bukhari dan Muslim
 ---

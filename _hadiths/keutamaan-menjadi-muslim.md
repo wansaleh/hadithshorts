@@ -1,4 +1,5 @@
 ---
+number: 10
 title: Keutamaan Menjadi Muslim
 narrator: Bukhari dan Muslim
 ---

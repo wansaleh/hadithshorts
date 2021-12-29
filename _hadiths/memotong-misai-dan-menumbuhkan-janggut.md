@@ -1,4 +1,5 @@
 ---
+number: 30
 title: Memotong Misai dan Menumbuhkan Janggut
 narrator: Muslim
 ---
