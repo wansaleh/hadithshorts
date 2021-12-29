@@ -23,18 +23,18 @@ export default function Home({
 }): InferGetServerSidePropsType<typeof getServerSideProps> {
   return (
     <>
-      <Seo templateTitle="Home" />
+      <Seo />
 
       <Nav />
 
       <div className="layout py-28">
         <div className="flex flex-col justify-center items-center min-h-screen">
           <h1 className="mb-4 text-7xl font-light tracking-tighter leading-none">
-            Welcome to <span className="font-bold">Hadith Shorts.</span>
+            <span className="font-bold">Hadith-hadith Pendek.</span>
           </h1>
 
           <p className="text-xl font-normal text-gray-500">
-            Memorisable Hadiths from Prophet Muhammad SAW.
+            Hadith-hadith yang mudah dihafal dari Nabi Muhammad SAW.
           </p>
 
           <div className="mt-20">
