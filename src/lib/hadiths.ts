@@ -37,7 +37,7 @@ function getHadithByPath(fullPath: string): Hadith {
     number: data.number,
     slug,
     title: data.title,
-    content,
+    content: content.trim(),
     narrator: data.narrator,
     topics: data.topics ?? null,
     // excerpt: data.excerpt,
