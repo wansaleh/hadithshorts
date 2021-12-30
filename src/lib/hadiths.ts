@@ -1,3 +1,4 @@
+import fg from 'fast-glob';
 import fs from 'fs';
 import matter from 'gray-matter';
 import { orderBy, uniq } from 'lodash-es';
@@ -17,19 +18,24 @@ export type Hadith = {
 };
 export type Topic = { topic: string; count: number };
 
-export function getHadithSlugs() {
-  return fs.readdirSync(hadithsDirectory);
+export function getHadithFiles() {
+  // console.log(fs.readdirSync(hadithsDirectory));
+  return fg.sync(hadithsDirectory + '/**/*.md', {
+    onlyFiles: true,
+  });
 }
 
-export function getHadithBySlug(slug: string): Hadith {
-  const realSlug = slug.replace(/\.md$/, '');
-  const fullPath = join(hadithsDirectory, `${realSlug}.md`);
+export function getHadithBySlug(fullPath: string): Hadith {
+  const slug = fullPath.replace(
+    new RegExp(`^${hadithsDirectory}/|.md$`, 'g'),
+    ''
+  );
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
 
   return {
     number: data.number,
-    slug: realSlug,
+    slug,
     title: data.title,
     content,
     narrator: data.narrator,
@@ -40,8 +46,8 @@ export function getHadithBySlug(slug: string): Hadith {
 }
 
 export function getAllHadiths(): Hadith[] {
-  const slugs = getHadithSlugs();
-  const hadiths = slugs.map((slug) => getHadithBySlug(slug));
+  const files = getHadithFiles();
+  const hadiths = files.map((slug) => getHadithBySlug(slug));
 
   return orderBy(hadiths, 'number', 'asc');
 }

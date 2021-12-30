@@ -30,15 +30,17 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
           </div>
         )}
 
-        <h2 className="mb-4 text-3xl font-bold">{hadith.title}</h2>
+        <h2 className="mb-4 text-3xl font-bold tracking-tight">
+          {hadith.title}
+        </h2>
 
         <ReactMarkdown
           remarkPlugins={[remarkSmartypants]}
           className={clsx(
             'prose prose-lg dark:prose-invert leading-normal font-light',
             wordCount < 20 && 'text-2xl',
-            wordCount < 30 && 'text-xl',
-            wordCount > 50 && 'text-sm'
+            wordCount >= 20 && wordCount < 30 && 'text-xl',
+            wordCount > 70 && 'text-sm'
           )}
         >
           {hadith.content}
