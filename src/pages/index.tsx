@@ -1,4 +1,4 @@
-import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
+import { GetStaticProps, InferGetStaticPropsType } from 'next';
 
 import { getAllHadiths, getAllTopics, Hadith, Topic } from '@/lib/hadiths';
 
@@ -8,7 +8,7 @@ import MuhammadSeal from '@/components/MuhammadSeal';
 import Nav from '../components/Nav';
 import Seo from '../components/Seo';
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
   const hadiths: Hadith[] = getAllHadiths();
   const topics: Topic[] = getAllTopics();
 
@@ -23,7 +23,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
 export default function Home({
   hadiths,
   topics,
-}): InferGetServerSidePropsType<typeof getServerSideProps> {
+}): InferGetStaticPropsType<typeof getStaticProps> {
   return (
     <>
       <Seo />
