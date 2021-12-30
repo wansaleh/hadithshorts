@@ -31,7 +31,7 @@ export default function Home({
       <Nav />
 
       <div className="layout py-28">
-        <MuhammadSeal className="dark:invert mx-auto mb-10 w-60" />
+        <MuhammadSeal className="invert dark:invert-0 mx-auto mb-10 w-60 rounded-full border-8" />
 
         <div className="flex flex-col min-h-screen">
           <h1 className="mb-4 text-7xl font-light tracking-tighter leading-none text-center">
