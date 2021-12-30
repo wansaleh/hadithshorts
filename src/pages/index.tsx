@@ -35,7 +35,7 @@ export default function Home({
 
         <div className="flex flex-col min-h-screen">
           <h1 className="mb-4 text-7xl font-light tracking-tighter leading-none text-center">
-            <span className="font-bold">Hadith-hadith Ringkas</span>
+            <span className="font-bold">Hadith Ringkas</span>
           </h1>
 
           <p className="text-2xl font-normal text-center text-gray-500">

@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
-  title: 'Hadith-hadith Ringkas',
-  siteName: 'Hadith-hadith Ringkas',
+  title: 'Hadith Ringkas',
+  siteName: 'Hadith Ringkas',
   description: 'Hadith-hadith yang mudah dihafal dari Nabi Muhammad SAW.',
   url: 'https://hadith.wansaleh.com',
   image:
