@@ -47,7 +47,7 @@ export default function Nav() {
               </Listbox.Button>
               <Listbox.Options
                 className={clsx(
-                  'absolute z-50 top-full right-0 bg-white rounded-lg ring-1 ring-gray-900/10 shadow-lg overflow-hidden w-36 py-1 text-sm text-gray-700 font-semibold dark:bg-gray-900 dark:ring-0 dark:highlight-white/5 dark:text-gray-300'
+                  'absolute z-50 top-full right-0 bg-white rounded-lg ring-1 ring-gray-500/20 shadow-lg overflow-hidden w-36 py-1 text-sm text-gray-700 font-semibold dark:bg-black dark:highlight-white/5 dark:text-gray-300'
                 )}
               >
                 {themes.map(({ value, label, icon: Icon }) => (
@@ -57,7 +57,7 @@ export default function Nav() {
                         className={clsx(
                           'py-1 px-2 flex items-center cursor-pointer',
                           selected && 'text-sky-500',
-                          active && 'bg-gray-50 dark:bg-gray-600/30'
+                          active && 'bg-gray-500/10'
                         )}
                       >
                         <Icon className="mr-2 w-5 h-5" />

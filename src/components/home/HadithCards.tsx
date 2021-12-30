@@ -5,6 +5,29 @@ import { Hadith, Topic } from '@/lib/hadiths';
 
 import HadithCard from './HadithCard';
 
+interface BtnProps extends React.HTMLAttributes<HTMLButtonElement> {
+  children: React.ReactNode;
+  isSelected?: boolean;
+  className?: string;
+  color?: 'red' | 'blue';
+}
+
+function Btn({ isSelected, className, children, ...props }: BtnProps) {
+  return (
+    <button
+      type="button"
+      className={clsx(
+        'hover:bg-gray-500/30 py-1.5 px-3 transition duration-200 leading-none rounded-full',
+        isSelected && 'bg-gray-500/30',
+        className
+      )}
+      {...props}
+    >
+      {children}
+    </button>
+  );
+}
+
 export default function HadithCards({
   hadiths,
   topics,
@@ -17,28 +40,20 @@ export default function HadithCards({
   return (
     <>
       <div className="flex flex-wrap gap-1 justify-center mb-20">
-        <button
-          type="button"
-          className={clsx(
-            'hover:bg-gray-500 hover:bg-opacity-30 py-1.5 px-3 transition duration-200 leading-none rounded-full',
-            'All' === currentTopic && 'bg-gray-500 bg-opacity-30'
-          )}
+        <Btn
+          isSelected={'All' === currentTopic}
           onClick={() => setCurrentTopic('All')}
         >
           Semua
-        </button>
+        </Btn>
         {topics.map(({ topic }) => (
-          <button
+          <Btn
             key={topic}
-            type="button"
-            className={clsx(
-              'hover:bg-gray-500 hover:bg-opacity-30 py-1.5 px-3 transition duration-200 leading-none rounded-full',
-              topic === currentTopic && 'bg-gray-500 bg-opacity-30'
-            )}
+            isSelected={topic === currentTopic}
             onClick={() => setCurrentTopic(topic)}
           >
             {topic}
-          </button>
+          </Btn>
         ))}
       </div>
 
