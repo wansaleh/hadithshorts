@@ -1,6 +1,6 @@
 ---
 number: 45
-title: Berbuat Baik kepada Jiran Anda
+title: Berbuat Baik kepada Jiran
 narrator: Muslim
 topics:
 - Jiran

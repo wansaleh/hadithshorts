@@ -1,0 +1,14 @@
+---
+number: 0
+title: Bersedekah
+narrator: Bukhari
+topics:
+- Ibadah
+- Sedekah
+---
+
+<p lang="ar">
+أَنْفِقْ يَا ابْنَ آدَمَ يُنْفَقْ عَلَيْكَ
+</p>
+
+Berinfaqlah wahai anak Adam maka engkau akan dibalas.
