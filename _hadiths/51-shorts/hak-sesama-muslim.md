@@ -4,6 +4,7 @@ title: Hak Sesama Muslim
 narrator: Bukhari dan Muslim
 topics:
 - Hak Muslim
+- Kemanusiaan
 ---
 
 Seorang Muslim mempunyai lima hak atas Muslim yang lain:

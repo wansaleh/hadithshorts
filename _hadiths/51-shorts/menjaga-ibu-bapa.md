@@ -4,6 +4,7 @@ title: Menjaga Ibu Bapa
 narrator: Bukhari dan Muslim
 topics:
 - Ibu Bapa
+- Kemanusiaan
 ---
 
 “Wahai Rasulullah! Siapakah di antara orang yang paling berhak mendapat pergaulan baik saya?”

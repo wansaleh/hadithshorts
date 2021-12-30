@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import remarkSmartypants from 'remark-smartypants';
 
 import { Hadith } from '@/lib/hadiths';
@@ -30,11 +31,12 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
           </div>
         )}
 
-        <h2 className="mb-4 text-3xl font-bold tracking-tight">
+        <h2 className="mb-8 text-3xl font-bold tracking-tight">
           {hadith.title}
         </h2>
 
         <ReactMarkdown
+          rehypePlugins={[rehypeRaw]}
           remarkPlugins={[remarkSmartypants]}
           className={clsx(
             'prose prose-lg dark:prose-invert leading-normal font-light',

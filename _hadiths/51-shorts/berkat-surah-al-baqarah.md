@@ -3,6 +3,7 @@ number: 44
 title: Berkat Surah Al-Baqarah
 narrator: Muslim
 topics:
+- Quran
 - Al-Baqarah
 ---
 

@@ -16,28 +16,28 @@ export default function HadithCards({
 
   return (
     <>
-      <div className="flex flex-wrap gap-3 justify-center mb-20">
+      <div className="flex flex-wrap gap-1 justify-center mb-20">
         <button
           type="button"
           className={clsx(
-            'hover:border-current border-b-2 border-transparent transition duration-200',
-            'All' === currentTopic && '!border-current'
+            'hover:bg-gray-500 hover:bg-opacity-20 py-1.5 px-3 transition duration-200 leading-none rounded-full',
+            'All' === currentTopic && 'bg-gray-500 bg-opacity-20'
           )}
           onClick={() => setCurrentTopic('All')}
         >
-          Semua ({hadiths.length})
+          Semua
         </button>
-        {topics.map(({ topic, count }) => (
+        {topics.map(({ topic }) => (
           <button
             key={topic}
             type="button"
             className={clsx(
-              'hover:border-current border-b-2 border-transparent transition duration-200',
-              topic === currentTopic && '!border-current'
+              'hover:bg-gray-500 hover:bg-opacity-20 py-1.5 px-3 transition duration-200 leading-none rounded-full',
+              topic === currentTopic && 'bg-gray-500 bg-opacity-20'
             )}
             onClick={() => setCurrentTopic(topic)}
           >
-            {topic} ({count})
+            {topic}
           </button>
         ))}
       </div>

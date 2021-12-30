@@ -18,14 +18,14 @@ export type Hadith = {
 };
 export type Topic = { topic: string; count: number };
 
-export function getHadithFiles() {
+function getAllHadithFiles() {
   // console.log(fs.readdirSync(hadithsDirectory));
   return fg.sync(hadithsDirectory + '/**/*.md', {
     onlyFiles: true,
   });
 }
 
-export function getHadithBySlug(fullPath: string): Hadith {
+function getHadithByPath(fullPath: string): Hadith {
   const slug = fullPath.replace(
     new RegExp(`^${hadithsDirectory}/|.md$`, 'g'),
     ''
@@ -46,10 +46,11 @@ export function getHadithBySlug(fullPath: string): Hadith {
 }
 
 export function getAllHadiths(): Hadith[] {
-  const files = getHadithFiles();
-  const hadiths = files.map((slug) => getHadithBySlug(slug));
+  const files = getAllHadithFiles();
+  const hadiths = files.map((slug) => getHadithByPath(slug));
 
-  return orderBy(hadiths, 'number', 'asc');
+  return hadiths;
+  // return orderBy(hadiths, 'number', 'asc');
 }
 
 export function getAllTopics(): Topic[] {

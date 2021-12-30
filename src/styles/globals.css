@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Uthman Naskh';
+  font-display: swap;
+  src: local('KFGQPC Uthman Taha Naskh'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff2/UthmanTN1%20Ver10.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff/UthmanTN1%20Ver10.woff') format('woff');
+}
+@font-face {
+  font-family: 'Uthman Naskh';
+  font-display: swap;
+  font-weight: bold;
+  src: local('KFGQPC Uthman Taha Naskh Bold'), local('KFGQPCUthmanTahaNaskh-Bold'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff2/UthmanTN1B%20Ver10.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff/UthmanTN1B%20Ver10.woff') format('woff');
+}
+
 html {
   @apply font-sans;
   /* font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; */
@@ -25,4 +41,11 @@ h3 {
   .layout {
     @apply px-6 mx-auto max-w-7xl;
   }
+}
+
+p[lang="ar"] {
+  direction: rtl;
+  font-family: 'Uthman Naskh', sans-serif;
+  font-size: 1.5em;
+  @apply leading-normal tracking-normal
 }

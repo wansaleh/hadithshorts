@@ -3,7 +3,7 @@ number: 37
 title: Mempersekutukan Allah dalam Amalan
 narrator: Muslim
 topics:
-- Amalan
+- Ibadah
 - Keesaan
 - Allah
 ---
