@@ -1,7 +1,7 @@
 import fg from 'fast-glob';
 import fs from 'fs';
 import matter from 'gray-matter';
-import { orderBy, uniq } from 'lodash-es';
+import { orderBy, shuffle, uniq } from 'lodash-es';
 import { join } from 'path';
 
 const hadithsDirectory = join(process.cwd(), '_hadiths');
@@ -49,7 +49,7 @@ export function getAllHadiths(): Hadith[] {
   const files = getAllHadithFiles();
   const hadiths = files.map((slug) => getHadithByPath(slug));
 
-  return hadiths;
+  return shuffle(hadiths);
   // return orderBy(hadiths, 'number', 'asc');
 }
 

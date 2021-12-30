@@ -20,8 +20,8 @@ export default function HadithCards({
         <button
           type="button"
           className={clsx(
-            'hover:bg-gray-500 hover:bg-opacity-20 py-1.5 px-3 transition duration-200 leading-none rounded-full',
-            'All' === currentTopic && 'bg-gray-500 bg-opacity-20'
+            'hover:bg-gray-500 hover:bg-opacity-30 py-1.5 px-3 transition duration-200 leading-none rounded-full',
+            'All' === currentTopic && 'bg-gray-500 bg-opacity-30'
           )}
           onClick={() => setCurrentTopic('All')}
         >
@@ -32,8 +32,8 @@ export default function HadithCards({
             key={topic}
             type="button"
             className={clsx(
-              'hover:bg-gray-500 hover:bg-opacity-20 py-1.5 px-3 transition duration-200 leading-none rounded-full',
-              topic === currentTopic && 'bg-gray-500 bg-opacity-20'
+              'hover:bg-gray-500 hover:bg-opacity-30 py-1.5 px-3 transition duration-200 leading-none rounded-full',
+              topic === currentTopic && 'bg-gray-500 bg-opacity-30'
             )}
             onClick={() => setCurrentTopic(topic)}
           >
