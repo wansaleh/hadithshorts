@@ -1,7 +1,9 @@
 ---
 number: 19
 title: Keutamaan Pergi ke Masjid
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Masjid
 ---

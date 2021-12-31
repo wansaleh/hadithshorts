@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Takut Kepada Allah
-narrator: Tirmizi
+narrators:
+- Tirmizi
 topics:
 - Iman
 - Allah

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { useState } from 'react';
 
-import { Hadith, Topic } from '@/lib/hadiths';
+import { Hadith, Narrator, Topic } from '@/lib/hadiths';
 
 import HadithCard from './HadithCard';
 
@@ -30,15 +30,36 @@ function Btn({ isSelected, className, children, ...props }: BtnProps) {
 
 export default function HadithCards({
   hadiths,
+  narrators,
   topics,
 }: {
   hadiths: Hadith[];
+  narrators: Narrator[];
   topics: Topic[];
 }) {
+  const [currentNarrator, setCurrentNarrator] = useState<string>('All');
   const [currentTopic, setCurrentTopic] = useState<string>('All');
 
   return (
     <>
+      <div className="flex flex-wrap gap-1 justify-center mb-10">
+        <Btn
+          isSelected={'All' === currentNarrator}
+          onClick={() => setCurrentNarrator('All')}
+        >
+          Semua
+        </Btn>
+        {narrators.map(({ name }) => (
+          <Btn
+            key={name}
+            isSelected={name === currentNarrator}
+            onClick={() => setCurrentNarrator(name)}
+          >
+            {name}
+          </Btn>
+        ))}
+      </div>
+
       <div className="flex flex-wrap gap-1 justify-center mb-20">
         <Btn
           isSelected={'All' === currentTopic}
@@ -59,8 +80,14 @@ export default function HadithCards({
 
       <div className="md:grid-cols-2 lg:grid-cols-3 grid grid-cols-1 gap-8">
         {hadiths
-          .filter((hadith) =>
-            currentTopic === 'All' ? true : hadith.topics.includes(currentTopic)
+          .filter(
+            (hadith) =>
+              (currentNarrator === 'All'
+                ? true
+                : hadith.narrators.includes(currentNarrator)) &&
+              (currentTopic === 'All'
+                ? true
+                : hadith.topics.includes(currentTopic))
           )
           .map((hadith) => (
             <HadithCard key={hadith.slug} hadith={hadith} />

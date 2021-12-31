@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Berkata Baik
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Ibadah
 - Sedekah

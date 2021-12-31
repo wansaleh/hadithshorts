@@ -1,7 +1,8 @@
 ---
 number: 30
 title: Memotong Misai dan Menumbuhkan Janggut
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Kebersihan
 - Penampilan

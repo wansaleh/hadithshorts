@@ -1,7 +1,8 @@
 ---
 number: 27
 title: Penghapusan Dosa
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Dosa
 ---

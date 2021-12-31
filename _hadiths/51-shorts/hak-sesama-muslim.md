@@ -1,7 +1,9 @@
 ---
 number: 11
 title: Hak Sesama Muslim
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Hak Muslim
 - Kemanusiaan

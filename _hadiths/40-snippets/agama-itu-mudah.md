@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Agama Itu Mudah
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Iman
 - Islam

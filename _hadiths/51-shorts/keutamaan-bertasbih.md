@@ -1,7 +1,9 @@
 ---
 number: 1
 title: Keutamaan Bertasbih
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Tasbih
 - Ibadah

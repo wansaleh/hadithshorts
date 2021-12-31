@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Bersedekah
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Ibadah
 - Sedekah

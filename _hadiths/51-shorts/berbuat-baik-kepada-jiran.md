@@ -1,7 +1,8 @@
 ---
 number: 45
 title: Berbuat Baik kepada Jiran
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Jiran
 - Kemanusiaan

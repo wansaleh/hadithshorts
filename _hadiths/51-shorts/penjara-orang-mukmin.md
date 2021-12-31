@@ -1,7 +1,8 @@
 ---
 number: 50
 title: Penjara Orang Mukmin
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Dunia
 ---

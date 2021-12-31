@@ -17,6 +17,7 @@
     "@types/react": "^17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
+    "array-to-sentence": "^2.0.0",
     "autoprefixer": "^10.4.1",
     "clsx": "^1.1.1",
     "eslint": "^7.32.0",

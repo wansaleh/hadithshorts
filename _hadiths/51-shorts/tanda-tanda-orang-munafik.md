@@ -1,7 +1,9 @@
 ---
 number: 20
 title: Tanda-tanda Orang Munafik
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Munafik
 - Peribadi

@@ -1,7 +1,8 @@
 ---
 number: 40
 title: Amal dan Merendah Diri
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Sedekah
 - Ibadah

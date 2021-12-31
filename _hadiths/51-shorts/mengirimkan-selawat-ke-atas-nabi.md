@@ -1,7 +1,9 @@
 ---
 number: 38
 title: Mengirimkan Selawat ke atas Nabi
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Selawat
 - Nabi

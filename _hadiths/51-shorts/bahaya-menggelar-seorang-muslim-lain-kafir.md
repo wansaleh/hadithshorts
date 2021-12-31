@@ -1,7 +1,8 @@
 ---
 number: 24
 title: Bahaya Menggelar Seorang Muslim Lain Kafir
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Tuduhan
 - Kemanusiaan

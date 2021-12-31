@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Kunci Syurga
-narrator: Ahmad
+narrators:
+- Ahmad
 topics:
 - Ibadah
 - Dakwah

@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Mendirikan Masjid
-narrator: Abu Daud
+narrators:
+- Abu Daud
 topics:
 - Ibadah
 - Penampilan

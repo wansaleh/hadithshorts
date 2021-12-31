@@ -1,6 +1,13 @@
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 
-import { getAllHadiths, getAllTopics, Hadith, Topic } from '@/lib/hadiths';
+import {
+  getAllHadiths,
+  getAllNarrators,
+  getAllTopics,
+  Hadith,
+  Narrator,
+  Topic,
+} from '@/lib/hadiths';
 
 import HadithCards from '@/components/home/HadithCards';
 import MuhammadSeal from '@/components/MuhammadSeal';
@@ -10,11 +17,13 @@ import Seo from '../components/Seo';
 
 export const getStaticProps: GetStaticProps = async () => {
   const hadiths: Hadith[] = getAllHadiths();
+  const narrators: Narrator[] = getAllNarrators();
   const topics: Topic[] = getAllTopics();
 
   return {
     props: {
       hadiths,
+      narrators,
       topics,
     },
   };
@@ -22,6 +31,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
 export default function Home({
   hadiths,
+  narrators,
   topics,
 }): InferGetStaticPropsType<typeof getStaticProps> {
   return (
@@ -39,11 +49,16 @@ export default function Home({
           </h1>
 
           <p className="text-2xl font-normal text-center text-gray-500">
-            Hadith-hadith yang mudah dihafal dari Nabi Muhammad SAW.
+            Hadith-hadith yang mudah dihafal dari Nabi Muhammad{' '}
+            <span className="text-[1.25em]">ﷺ</span>
           </p>
 
-          <div className="mt-20">
-            <HadithCards hadiths={hadiths} topics={topics} />
+          <div className="mt-10">
+            <HadithCards
+              hadiths={hadiths}
+              narrators={narrators}
+              topics={topics}
+            />
           </div>
         </div>
       </div>

@@ -1,7 +1,9 @@
 ---
 number: 16
 title: Membersihkan Mulut Sebelum Solat
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Kebersihan
 - Ibadah

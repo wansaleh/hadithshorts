@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Membantu Yang Terkena Musibah
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Ibadah
 - Kemanusiaan

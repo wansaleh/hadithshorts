@@ -1,7 +1,8 @@
 ---
 number: 22
 title: Keutamaan Berzikir Selepas Solat
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Zikir
 ---

@@ -1,7 +1,8 @@
 ---
 number: 48
 title: Mencintai Kerana Allah
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Cinta
 - Kemanusiaan

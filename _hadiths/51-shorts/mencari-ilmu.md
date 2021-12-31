@@ -1,7 +1,8 @@
 ---
 number: 47
 title: Mencari Ilmu
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Ilmu
 ---

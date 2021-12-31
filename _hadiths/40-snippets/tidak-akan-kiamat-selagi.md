@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Tidak Akan Kiamat Selagi...
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Iman
 - Kiamat

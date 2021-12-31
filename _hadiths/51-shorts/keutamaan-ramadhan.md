@@ -1,7 +1,9 @@
 ---
 number: 6
 title: Keutamaan Ramadhan
-narrator: Bukhari and Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Ramadhan
 ---

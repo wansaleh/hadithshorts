@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Inti Ibadah
-narrator: Tirmizi
+narrators:
+- Tirmizi
 topics:
 - Iman
 - Ibadah

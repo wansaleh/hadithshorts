@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Belajar Al-Quran
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Ibadah
 - Quran

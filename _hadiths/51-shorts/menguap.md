@@ -1,7 +1,9 @@
 ---
 number: 8
 title: Menguap
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Penampilan
 ---

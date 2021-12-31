@@ -1,7 +1,8 @@
 ---
 number: 39
 title: Kesucian Darah, Kekayaan, dan Kehormatan Seorang Muslim
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Islam
 ---

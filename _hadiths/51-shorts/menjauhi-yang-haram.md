@@ -1,7 +1,9 @@
 ---
 number: 5
 title: Menjauhi Yang Haram
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Peribadi
 ---

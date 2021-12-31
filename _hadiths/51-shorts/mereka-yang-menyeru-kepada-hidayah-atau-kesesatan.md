@@ -1,7 +1,8 @@
 ---
 number: 36
 title: Mereka yang Menyeru kepada Hidayah atau Kesesatan
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Dakwah
 ---

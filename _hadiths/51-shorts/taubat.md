@@ -1,7 +1,8 @@
 ---
 number: 25
 title: Taubat
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Taubat
 ---

@@ -1,0 +1,16 @@
+---
+number: 0
+title: Perampas Harta
+narrators:
+- Tirmizi
+topics:
+- Kemanusiaan
+- Pencuri
+- Perampas
+---
+
+<p lang="ar">
+مَنِ انْتَهَبَ نُهْبَةً فَلَيْسَ مِنَّا
+</p>
+
+Siapa merampas milik orang bukan golongan kami.

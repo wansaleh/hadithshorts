@@ -1,7 +1,9 @@
 ---
 number: 10
 title: Keutamaan Seorang Muslim
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Islam
 - Kemanusiaan

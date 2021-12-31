@@ -1,10 +1,12 @@
 ---
 number: 17
 title: Mencuci Tumit Semasa Berwuduk
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Kebersihan
 - Ibadah
 ---
 
-Nabi (ﷺ) melihat seorang lelaki yang tidak membasuh tumitnya [semasa berwudhu], maka baginda (ﷺ) berkata, “Selamatkan tumitmu daripada api!”
+Nabi ﷺ melihat seorang lelaki yang tidak membasuh tumitnya [semasa berwudhu], maka baginda ﷺ berkata, “Selamatkan tumitmu daripada api!”

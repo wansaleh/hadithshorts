@@ -1,7 +1,9 @@
 ---
 number: 3
 title: Mengelakkan Syak Wasangka
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Syak
 ---

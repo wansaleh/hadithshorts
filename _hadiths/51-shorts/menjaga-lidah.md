@@ -1,7 +1,9 @@
 ---
 number: 4
 title: Menjaga Lidah
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Peribadi
 ---

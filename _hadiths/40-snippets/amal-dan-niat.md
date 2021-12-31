@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Amal Dan Niat
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Iman
 - Ibadat

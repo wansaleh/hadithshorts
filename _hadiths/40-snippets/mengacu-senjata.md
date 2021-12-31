@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Mengacukan Senjata
-narrator: Bukhari
+narrators:
+- Bukhari
 topics:
 - Senjata
 ---

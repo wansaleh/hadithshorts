@@ -1,7 +1,8 @@
 ---
 number: 33
 title: Amalan Selepas Kematian
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Kematian
 ---

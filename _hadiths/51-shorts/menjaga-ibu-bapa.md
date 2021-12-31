@@ -1,7 +1,9 @@
 ---
 number: 2
 title: Menjaga Ibu Bapa
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Ibu Bapa
 - Kemanusiaan

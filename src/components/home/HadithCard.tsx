@@ -1,3 +1,4 @@
+import arrayToSentence from 'array-to-sentence';
 import clsx from 'clsx';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
@@ -52,7 +53,7 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
 
         <div className="mt-4 font-light">
           <span>Riwayat</span>{' '}
-          <span className="font-bold">{hadith.narrator}</span>
+          <span className="font-bold">{arrayToSentence(hadith.narrators)}</span>
         </div>
       </div>
     </div>

@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Kebersihan
-narrator: Ahmad
+narrators:
+- Ahmad
 topics:
 - Ibadah
 - Kebersihan

@@ -1,7 +1,8 @@
 ---
 number: 32
 title: Mengkhianati Umat Islam
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Islam
 ---

@@ -1,7 +1,8 @@
 ---
 number: 49
 title: Kepentingan Solat Fardhu
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Solat
 - Ibadah

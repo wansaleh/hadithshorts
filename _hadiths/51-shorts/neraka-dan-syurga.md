@@ -1,7 +1,9 @@
 ---
 number: 14
 title: Neraka dan Syurga
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Syurga
 - Neraka

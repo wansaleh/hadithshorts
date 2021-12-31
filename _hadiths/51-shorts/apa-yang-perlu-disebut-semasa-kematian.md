@@ -1,7 +1,8 @@
 ---
 number: 34
 title: Apa Yang Perlu Disebut Semasa Kematian
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Kematian
 ---

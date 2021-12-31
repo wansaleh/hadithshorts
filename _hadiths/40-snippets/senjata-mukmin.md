@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Senjata Mukmin
-narrator: Jamius Saghir
+narrators:
+- Jamius Saghir
 topics:
 - Ibadah
 - Doa

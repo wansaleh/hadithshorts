@@ -1,7 +1,9 @@
 ---
 number: 15
 title: Berdiam Diri Semasa Khutbah Jumaat
-narrator: Bukhari dan Muslim
+narrators:
+- Bukhari
+- Muslim
 topics:
 - Khutbah Jumaat
 - Ibadah

@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Ajakan Kebaikan
-narrator: Tirmizi
+narrators:
+- Tirmizi
 topics:
 - Iman
 - Dakwah

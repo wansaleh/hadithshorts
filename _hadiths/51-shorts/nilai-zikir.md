@@ -1,7 +1,8 @@
 ---
 number: 31
 title: Nilai Zikir
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Zikir
 ---

@@ -1,7 +1,8 @@
 ---
 number: 43
 title: Apa Yang Utama
-narrator: Muslim
+narrators:
+- Muslim
 topics:
 - Hati
 ---

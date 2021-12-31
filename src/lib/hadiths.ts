@@ -11,12 +11,19 @@ export type Hadith = {
   slug: string;
   title: string;
   content: string;
-  narrator: string;
+  narrators: string;
   topics: string[];
   // excerpt?: string;
-  // date: string;
+  date: string;
 };
-export type Topic = { topic: string; count: number };
+export type Topic = {
+  topic: string;
+  count: number;
+};
+export type Narrator = {
+  name: string;
+  count: number;
+};
 
 function getAllHadithFiles() {
   // console.log(fs.readdirSync(hadithsDirectory));
@@ -31,6 +38,7 @@ function getHadithByPath(fullPath: string): Hadith {
     ''
   );
   const fileContents = fs.readFileSync(fullPath, 'utf8');
+  const fileStats = fs.statSync(fullPath);
   const { data, content } = matter(fileContents);
 
   return {
@@ -38,10 +46,9 @@ function getHadithByPath(fullPath: string): Hadith {
     slug,
     title: data.title,
     content: content.trim(),
-    narrator: data.narrator,
+    narrators: data.narrators,
     topics: data.topics ?? null,
-    // excerpt: data.excerpt,
-    // date: data.date,
+    date: fileStats.mtime.toISOString(),
   };
 }
 
@@ -49,8 +56,30 @@ export function getAllHadiths(): Hadith[] {
   const files = getAllHadithFiles();
   const hadiths = files.map((slug) => getHadithByPath(slug));
 
-  return shuffle(hadiths);
-  // return orderBy(hadiths, 'number', 'asc');
+  // return shuffle(hadiths);
+  return orderBy(hadiths, 'date', 'desc');
+}
+
+export function getAllNarrators(): Narrator[] {
+  const hadiths = getAllHadiths();
+
+  const _narrators: string[] = uniq(
+    hadiths
+      .map((hadith: Hadith) => hadith.narrators)
+      .filter(Boolean)
+      .flat()
+  );
+
+  const narrators: Narrator[] = [];
+  _narrators.forEach((narrator) => {
+    const count = hadiths.filter((hadith) =>
+      hadith.narrators.includes(narrator)
+    ).length;
+
+    narrators.push({ name: narrator, count });
+  });
+
+  return orderBy(narrators, 'count', 'desc');
 }
 
 export function getAllTopics(): Topic[] {

@@ -1,7 +1,8 @@
 ---
 number: 0
 title: Menyerupai Kaum Lain
-narrator: Abu Daud
+narrators:
+- Abu Daud
 topics:
 - Ibadah
 - Penampilan
