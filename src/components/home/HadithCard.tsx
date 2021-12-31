@@ -36,18 +36,26 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
           {hadith.title}
         </h2>
 
-        <ReactMarkdown
-          rehypePlugins={[rehypeRaw]}
-          remarkPlugins={[remarkSmartypants]}
+        <div
+          data-word-count={wordCount}
           className={clsx(
             'prose prose-lg dark:prose-invert leading-normal font-light',
-            wordCount < 20 && 'text-2xl',
+            wordCount < 10 && 'text-3xl',
+            wordCount >= 10 && wordCount < 20 && 'text-2xl',
             wordCount >= 20 && wordCount < 30 && 'text-xl',
-            wordCount > 70 && 'text-sm'
+            wordCount >= 30 && wordCount < 50 && 'text-base',
+            wordCount >= 50 && wordCount < 70 && 'text-base',
+            wordCount >= 70 && 'text-sm'
           )}
         >
-          {hadith.content}
-        </ReactMarkdown>
+          <ReactMarkdown
+            rehypePlugins={[rehypeRaw]}
+            remarkPlugins={[remarkSmartypants]}
+            data-wordCount={wordCount}
+          >
+            {hadith.content}
+          </ReactMarkdown>
+        </div>
 
         <div className="flex-1" />
 
