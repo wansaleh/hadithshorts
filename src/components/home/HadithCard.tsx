@@ -61,7 +61,9 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
 
         <div className="mt-4 font-light">
           <span>Riwayat</span>{' '}
-          <span className="font-bold">{arrayToSentence(hadith.narrators)}</span>
+          <span className="font-bold">
+            {arrayToSentence(hadith.narrators, { lastSeparator: ' dan ' })}
+          </span>
         </div>
       </div>
     </div>
