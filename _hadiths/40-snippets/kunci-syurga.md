@@ -5,7 +5,7 @@ narrators:
 - Ahmad
 topics:
 - Ibadah
-- Dakwah
+- Solat
 ---
 
 <p lang="ar">مِفْتَاحُ الْجَنَّةِ الصَّلاَةُ</p>
