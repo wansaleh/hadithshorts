@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Membenci Perasuah
 narrators:
 - Abu Daud

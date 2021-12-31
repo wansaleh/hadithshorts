@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Agama Itu Mudah
 narrators:
 - Bukhari

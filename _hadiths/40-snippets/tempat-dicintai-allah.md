@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Tempat Dicintai Allah
 narrators:
 - Bukhari

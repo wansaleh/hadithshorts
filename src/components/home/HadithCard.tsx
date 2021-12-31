@@ -12,7 +12,7 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
   return (
     <div
       key={hadith.slug}
-      className="aspect-[25/40] p-8 rounded-3xl border-4 border-current relative"
+      className="aspect-[25/35] p-8 rounded-3xl border-4 border-current relative"
     >
       {/* <div className="-z-0 absolute bottom-2 right-4 text-8xl font-bold tracking-tighter leading-none opacity-5">
         {hadith.number}
@@ -32,7 +32,7 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
           </div>
         )}
 
-        <h2 className="mb-8 text-3xl font-bold tracking-tight">
+        <h2 className="mt-4 mb-8 text-3xl font-bold tracking-tight">
           {hadith.title}
         </h2>
 

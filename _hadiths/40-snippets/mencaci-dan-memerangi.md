@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Mencaci dan Memerangi
 narrators:
 - Tirmizi

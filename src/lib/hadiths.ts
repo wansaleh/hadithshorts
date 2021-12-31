@@ -7,7 +7,7 @@ import { join } from 'path';
 const hadithsDirectory = join(process.cwd(), '_hadiths');
 
 export type Hadith = {
-  number: number;
+  number?: number;
   slug: string;
   title: string;
   content: string;
@@ -42,7 +42,7 @@ function getHadithByPath(fullPath: string): Hadith {
   const { data, content } = matter(fileContents);
 
   return {
-    number: data.number,
+    number: data.number ?? null,
     slug,
     title: data.title,
     content: content.trim(),
@@ -56,8 +56,8 @@ export function getAllHadiths(): Hadith[] {
   const files = getAllHadithFiles();
   const hadiths = files.map((slug) => getHadithByPath(slug));
 
-  // return shuffle(hadiths);
-  return orderBy(hadiths, 'date', 'desc');
+  return shuffle(hadiths);
+  // return orderBy(hadiths, 'date', 'desc');
 }
 
 export function getAllNarrators(): Narrator[] {

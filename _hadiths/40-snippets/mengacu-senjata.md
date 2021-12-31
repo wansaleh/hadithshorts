@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Mengacukan Senjata
 narrators:
 - Bukhari

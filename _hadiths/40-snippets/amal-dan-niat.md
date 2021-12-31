@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Amal Dan Niat
 narrators:
 - Bukhari

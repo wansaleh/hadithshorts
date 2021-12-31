@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Sabar dan Tergesa-gesa
 narrators:
 - Tirmizi

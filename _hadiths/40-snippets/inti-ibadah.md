@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Inti Ibadah
 narrators:
 - Tirmizi

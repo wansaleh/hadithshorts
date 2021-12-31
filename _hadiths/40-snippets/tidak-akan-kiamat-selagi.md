@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Tidak Akan Kiamat Selagi...
 narrators:
 - Muslim

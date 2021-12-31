@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Mendirikan Masjid
 narrators:
 - Abu Daud

@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Senjata Mukmin
 narrators:
 - Jamius Saghir

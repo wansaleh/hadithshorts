@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Menyerupai Kaum Lain
 narrators:
 - Abu Daud

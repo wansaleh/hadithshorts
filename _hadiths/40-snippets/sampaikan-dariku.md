@@ -1,5 +1,4 @@
 ---
-number: 0
 title: Sampaikan Dariku
 narrators:
 - Bukhari
