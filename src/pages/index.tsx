@@ -44,7 +44,7 @@ export default function Home({
         <MuhammadSeal className="invert dark:invert-0 mx-auto mb-10 w-60 rounded-full border-8" />
 
         <div className="flex flex-col min-h-screen">
-          <h1 className="mb-4 text-7xl font-light tracking-tighter leading-none text-center">
+          <h1 className="mb-4 lg:text-7xl text-5xl font-light tracking-tighter leading-none text-center">
             <span className="font-bold">Hadith Ringkas</span>
           </h1>
 
