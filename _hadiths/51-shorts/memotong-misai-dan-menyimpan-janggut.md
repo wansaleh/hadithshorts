@@ -9,4 +9,4 @@ topics:
 status: Sahih
 ---
 
-Potong misai dan biarkan janggut. Berbeza dengan Majusi.
+Potonglah misai dan simpanlah janggut. Berbeza dengan Majusi.
