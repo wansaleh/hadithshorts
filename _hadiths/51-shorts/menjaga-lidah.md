@@ -5,7 +5,7 @@ narrators:
 - Bukhari
 - Muslim
 topics:
-- Peribadi
+- Akhlak
 status: Sahih
 ---
 

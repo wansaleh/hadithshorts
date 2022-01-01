@@ -6,7 +6,7 @@ narrators:
 - Muslim
 topics:
 - Munafik
-- Peribadi
+- Akhlak
 status: Sahih
 ---
 

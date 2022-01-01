@@ -6,7 +6,7 @@ narrators:
 - Muslim
 topics:
 - Makanan
-- Peribadi
+- Akhlak
 status: Sahih
 ---
 
