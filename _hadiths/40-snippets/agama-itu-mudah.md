@@ -8,6 +8,8 @@ topics:
 status: Sahih
 ---
 
-<p lang="ar">الَدِّيْنُ يُسرٌ</p>
+<p lang="ar">
+إِنَّ الدِّينَ يُسْرٌ، وَلَنْ يُشَادَّ الدِّينَ أَحَدٌ إِلَّا غَلَبَهُ
+</p>
 
-Agama itu mudah.
+"Sesungguhnya agama itu mudah, janganlah seseorang daripada kamu menyukarkannya, melainkan kamu akan tewas."
