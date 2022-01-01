@@ -53,6 +53,7 @@ p[lang='ar'] {
   font-family: 'Uthman Naskh', sans-serif;
   font-size: 1.5em;
   @apply leading-normal tracking-normal;
+  @apply -mb-4 !important;
 }
 
 .prose ol li {

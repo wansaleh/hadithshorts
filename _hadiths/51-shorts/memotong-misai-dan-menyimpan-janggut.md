@@ -1,6 +1,6 @@
 ---
 number: 30
-title: Memotong Misai dan Menumbuhkan Janggut
+title: Memotong Misai dan Menyimpan Janggut
 narrators:
 - Muslim
 topics:
