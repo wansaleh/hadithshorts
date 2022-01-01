@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import Fuse from 'fuse.js';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { Hadith, Narrator, Topic } from '@/lib/hadiths';
 
@@ -47,6 +47,19 @@ export default function HadithCards({
   const [currentNarrator, setCurrentNarrator] = useState<string>('All');
   const [currentTopic, setCurrentTopic] = useState<string>('All');
   const [searchText, setSearchText] = useState<string>('');
+
+  useEffect(() => {
+    if (currentNarrator !== 'All' || currentTopic !== 'All') {
+      setSearchText('');
+    }
+  }, [currentNarrator, currentTopic]);
+
+  useEffect(() => {
+    if (searchText) {
+      setCurrentNarrator('All');
+      setCurrentTopic('All');
+    }
+  }, [searchText]);
 
   let filtered = hadiths.filter(
     (hadith) =>
