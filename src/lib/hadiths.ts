@@ -8,7 +8,7 @@ const hadithsDirectory = join(process.cwd(), '_hadiths');
 
 export enum HadithStatus {
   Sahih = 'Sahih',
-  Dai = 'Daif',
+  Daif = 'Daif',
 }
 export type Hadith = {
   number?: number;
