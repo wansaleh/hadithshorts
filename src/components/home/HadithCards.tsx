@@ -1,9 +1,16 @@
 import clsx from 'clsx';
+import Fuse from 'fuse.js';
 import { useState } from 'react';
 
 import { Hadith, Narrator, Topic } from '@/lib/hadiths';
 
 import HadithCard from './HadithCard';
+
+const options = {
+  includeScore: true,
+  keys: ['title', 'content'],
+  threshold: 0.3,
+};
 
 interface BtnProps extends React.HTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
@@ -39,9 +46,33 @@ export default function HadithCards({
 }) {
   const [currentNarrator, setCurrentNarrator] = useState<string>('All');
   const [currentTopic, setCurrentTopic] = useState<string>('All');
+  const [searchText, setSearchText] = useState<string>('');
+
+  let filtered = hadiths.filter(
+    (hadith) =>
+      (currentNarrator === 'All'
+        ? true
+        : hadith.narrators.includes(currentNarrator)) &&
+      (currentTopic === 'All' ? true : hadith.topics.includes(currentTopic))
+  );
+
+  if (searchText) {
+    const fuse = new Fuse(filtered, options);
+    filtered = fuse.search(searchText).map((res) => res.item);
+  }
 
   return (
     <>
+      <div className="flex flex-wrap gap-1 justify-center mb-10">
+        <input
+          type="search"
+          className="bg-gray-500/20 focus:ring-2 dark:ring-offset-black py-4 px-6 w-full max-w-xl text-xl rounded-full ring-blue-500 ring-offset-2 transition duration-200 outline-none"
+          placeholder="Cari hadith..."
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+        />
+      </div>
+
       <div className="flex flex-wrap gap-1 justify-center mb-10">
         <Btn
           isSelected={'All' === currentNarrator}
@@ -79,19 +110,9 @@ export default function HadithCards({
       </div>
 
       <div className="md:grid-cols-2 lg:grid-cols-3 grid grid-cols-1 gap-8">
-        {hadiths
-          .filter(
-            (hadith) =>
-              (currentNarrator === 'All'
-                ? true
-                : hadith.narrators.includes(currentNarrator)) &&
-              (currentTopic === 'All'
-                ? true
-                : hadith.topics.includes(currentTopic))
-          )
-          .map((hadith) => (
-            <HadithCard key={hadith.slug} hadith={hadith} />
-          ))}
+        {filtered.map((hadith) => (
+          <HadithCard key={hadith.slug} hadith={hadith} />
+        ))}
       </div>
     </>
   );

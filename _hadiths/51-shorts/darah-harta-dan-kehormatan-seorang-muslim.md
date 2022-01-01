@@ -1,6 +1,6 @@
 ---
 number: 39
-title: Kesucian Darah, Kekayaan, dan Kehormatan Seorang Muslim
+title: Darah, Harta dan Kehormatan Seorang Muslim
 narrators:
 - Muslim
 topics:
