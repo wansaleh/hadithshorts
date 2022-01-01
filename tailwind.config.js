@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-        head: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['SF Pro Text', 'Inter var', ...defaultTheme.fontFamily.sans],
+        head: ['SF Pro Display', 'Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
   },

@@ -32,7 +32,7 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
           </div>
         )}
 
-        <h2 className="mb-6 text-3xl font-semibold">{hadith.title}</h2>
+        <h2 className="mb-6 text-3xl font-bold">{hadith.title}</h2>
 
         <div
           data-word-count={wordCount}

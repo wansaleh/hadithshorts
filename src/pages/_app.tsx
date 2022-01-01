@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import { ThemeProvider } from 'next-themes';
 
+import '@/styles/font-sfpro.css';
 import '@/styles/globals.css';
 
 import Layout from '@/components/Layout';

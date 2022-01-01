@@ -32,15 +32,15 @@ body {
   @apply dark:bg-black dark:text-white text-black bg-white;
 }
 
-/* h1 {
-  @apply lg:text-6xl text-4xl;
+h1 {
+  @apply font-head;
 }
 h2 {
-  @apply lg:text-5xl text-3xl;
+  @apply font-head;
 }
 h3 {
-  @apply lg:text-4xl text-2xl;
-} */
+  @apply font-head;
+}
 
 @layer base {
   .layout {
