@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Satoshi', 'Inter var', ...defaultTheme.fontFamily.sans],
-        head: ['Satoshi', 'Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        head: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
   },
