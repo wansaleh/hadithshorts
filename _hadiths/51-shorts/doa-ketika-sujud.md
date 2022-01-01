@@ -1,6 +1,6 @@
 ---
 number: 46
-title: Berdoa Ketika Sujud
+title: Doa Ketika Sujud
 narrators:
 - Muslim
 topics:
