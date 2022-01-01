@@ -5,6 +5,7 @@ narrators:
 topics:
 - Ibadah
 - Quran
+status: Sahih
 ---
 
 <p lang="ar">

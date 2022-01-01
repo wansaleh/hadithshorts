@@ -6,6 +6,7 @@ narrators:
 topics:
 - Jiran
 - Kemanusiaan
+status: Sahih
 ---
 
 Orang yang tetangganya tidak selamat dari kejahatannya tidak akan masuk syurga.

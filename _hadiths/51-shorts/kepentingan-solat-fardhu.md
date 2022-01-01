@@ -6,6 +6,7 @@ narrators:
 topics:
 - Solat
 - Ibadah
+status: Sahih
 ---
 
 Apabila diseru iqamah solat fardhu, maka tidak ada solat melainkan fardu.

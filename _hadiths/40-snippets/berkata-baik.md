@@ -5,6 +5,7 @@ narrators:
 topics:
 - Ibadah
 - Sedekah
+status: Sahih
 ---
 
 <p lang="ar">

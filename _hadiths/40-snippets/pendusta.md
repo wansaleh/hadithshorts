@@ -5,6 +5,7 @@ narrators:
 topics:
 - Kemanusiaan
 - Pendusta
+status: Sahih
 ---
 
 <p lang="ar">

@@ -5,6 +5,7 @@ narrators:
 topics:
 - Iman
 - Dakwah
+status: Sahih
 ---
 
 <p lang="ar">الدَّالُّ عَلَى الْخَيْرِ كَفَاعِلِهِا</p>

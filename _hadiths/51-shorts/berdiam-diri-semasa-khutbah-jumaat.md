@@ -7,6 +7,7 @@ narrators:
 topics:
 - Khutbah Jumaat
 - Ibadah
+status: Sahih
 ---
 
 Jika anda berkata kepada sahabat anda pada hari Jumaat [semasa solat Jumaat], “Dengarlah!”, ketika imam sedang berkhutbah, maka anda telah tersilap [dengan melakukan perkara yang sia-sia].

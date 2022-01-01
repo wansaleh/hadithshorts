@@ -7,6 +7,7 @@ narrators:
 topics:
 - Hak Muslim
 - Kemanusiaan
+status: Sahih
 ---
 
 Seorang Muslim mempunyai lima hak atas Muslim yang lain:

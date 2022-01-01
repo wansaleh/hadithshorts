@@ -7,6 +7,7 @@ narrators:
 topics:
 - Ibu Bapa
 - Kemanusiaan
+status: Sahih
 ---
 
 “Wahai Rasulullah! Siapakah di antara orang yang paling berhak mendapat pergaulan baik saya?”

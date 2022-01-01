@@ -5,6 +5,7 @@ narrators:
 topics:
 - Kemanusiaan
 - Masjid
+status: Sahih
 ---
 
 <p lang="ar">

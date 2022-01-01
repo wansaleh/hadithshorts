@@ -5,6 +5,7 @@ narrators:
 - Muslim
 topics:
 - Islam
+status: Sahih
 ---
 
 Darah, harta, dan kehormatan setiap orang Islam adalah dilarang untuk dilanggar oleh orang Islam lain.

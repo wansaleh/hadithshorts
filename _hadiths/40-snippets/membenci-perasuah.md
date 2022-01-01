@@ -5,6 +5,7 @@ narrators:
 topics:
 - Kemanusiaan
 - Rasuah
+status: Sahih
 ---
 
 <p lang="ar">

@@ -5,6 +5,7 @@ narrators:
 topics:
 - Ibadah
 - Doa
+status: Sahih
 ---
 
 <p lang="ar">اَلدُّعَاءُ سِلاَحُ الْمُؤْمِنِ</p>

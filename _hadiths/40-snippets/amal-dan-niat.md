@@ -6,6 +6,7 @@ topics:
 - Iman
 - Ibadat
 - Niat
+status: Sahih
 ---
 
 <p lang="ar">نمَا الأعْمَالُ باِلنِّيَةِإِ</p>

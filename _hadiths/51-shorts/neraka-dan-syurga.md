@@ -7,6 +7,7 @@ narrators:
 topics:
 - Syurga
 - Neraka
+status: Sahih
 ---
 
 Api dikelilingi oleh keinginan dan syurga oleh kesusahan.

@@ -6,6 +6,7 @@ narrators:
 topics:
 - Kebersihan
 - Penampilan
+status: Sahih
 ---
 
 Potong misai dan biarkan janggut. Berbeza dengan Majusi.

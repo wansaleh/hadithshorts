@@ -5,6 +5,7 @@ narrators:
 topics:
 - Kemanusiaan
 - Dakwah
+status: Sahih
 ---
 
 <p lang="ar">

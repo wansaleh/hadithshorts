@@ -5,6 +5,7 @@ narrators:
 topics:
 - Iman
 - Ibadah
+status: Sahih
 ---
 
 <p lang="ar">الَدُّعَاءُ مُخُّ اْلِعبَادَةُِ</p>

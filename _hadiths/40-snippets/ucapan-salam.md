@@ -5,6 +5,7 @@ narrators:
 topics:
 - Kemanusiaan
 - Salam
+status: Sahih
 ---
 
 <p lang="ar">

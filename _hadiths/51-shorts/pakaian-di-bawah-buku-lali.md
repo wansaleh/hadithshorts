@@ -5,6 +5,7 @@ narrators:
 - Bukhari
 topics:
 - Penampilan
+status: Sahih
 ---
 
 Mana-mana pakaian bawah yang jatuh di bawah buku lali adalah di dalam api.

@@ -6,6 +6,7 @@ topics:
 - Ibadah
 - Penampilan
 - Masjid
+status: Sahih
 ---
 
 <p lang="ar">مَنْ بَنىَ لِلّهِ مَسْجِدًا بَنىَ اللهُ لَهُ بَيْةً فِي الجَنَّةِ</p>

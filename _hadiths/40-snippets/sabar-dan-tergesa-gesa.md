@@ -5,6 +5,7 @@ narrators:
 topics:
 - Kemanusiaan
 - Sabar
+status: Sahih
 ---
 
 <p lang="ar">

@@ -5,6 +5,7 @@ narrators:
 topics:
 - Iman
 - Islam
+status: Sahih
 ---
 
 <p lang="ar">الَدِّيْنُ يُسرٌ</p>

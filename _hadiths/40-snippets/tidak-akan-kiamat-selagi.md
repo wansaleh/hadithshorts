@@ -5,6 +5,7 @@ narrators:
 topics:
 - Iman
 - Kiamat
+status: Sahih
 ---
 
 <p lang="ar">لاَ تَقُومُ السَّاعَةُ عَلَى أَحَدٍ يَقُولُ : اَللهُ اَللهُ</p>

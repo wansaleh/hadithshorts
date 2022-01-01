@@ -5,6 +5,7 @@ narrators:
 - Muslim
 topics:
 - Kematian
+status: Sahih
 ---
 
 Apabila seseorang meninggal dunia, maka terputuslah segala amalannya kecuali tiga perkara:

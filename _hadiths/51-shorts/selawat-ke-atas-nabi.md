@@ -7,6 +7,7 @@ narrators:
 topics:
 - Selawat
 - Nabi
+status: Sahih
 ---
 
 Sesiapa yang berselawat kepadaku satu kali, maka Allah akan berselawat ke atasnya sepuluh kali.

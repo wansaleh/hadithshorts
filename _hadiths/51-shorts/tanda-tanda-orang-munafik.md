@@ -7,6 +7,7 @@ narrators:
 topics:
 - Munafik
 - Peribadi
+status: Sahih
 ---
 
 1. Apabila dia bercakap, dia berbohong

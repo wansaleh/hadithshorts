@@ -5,6 +5,7 @@ narrators:
 topics:
 - Ibadah
 - Solat
+status: Sahih
 ---
 
 <p lang="ar">مِفْتَاحُ الْجَنَّةِ الصَّلاَةُ</p>

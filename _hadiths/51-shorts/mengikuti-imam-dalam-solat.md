@@ -8,6 +8,7 @@ topics:
 - Ibadah
 - Solat
 - Imam
+status: Sahih
 ---
 
 Tidakkah orang yang mengangkat kepalanya di hadapan imam [semasa solat] takut bahawa Allah akan menukar kepalanya seperti keldai?

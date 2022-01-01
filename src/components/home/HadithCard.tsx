@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import remarkSmartypants from 'remark-smartypants';
 
-import { Hadith } from '@/lib/hadiths';
+import { Hadith, HadithStatus } from '@/lib/hadiths';
 
 export default function HadithCard({ hadith }: { hadith: Hadith }) {
   const wordCount = hadith.content.split(' ').length;
@@ -59,10 +59,21 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
 
         <div className="flex-1" />
 
-        <div className="mt-4 font-light">
-          <span>Riwayat</span>{' '}
-          <span className="font-bold">
-            {arrayToSentence(hadith.narrators, { lastSeparator: ' dan ' })}
+        <div className="flex justify-between items-end mt-4">
+          <span className="font-light">
+            <span>Riwayat</span>{' '}
+            <span className="font-bold">
+              {arrayToSentence(hadith.narrators, { lastSeparator: ' dan ' })}
+            </span>
+          </span>
+
+          <span
+            className={clsx(
+              'uppercase text-sm font-bold',
+              hadith.status === 'Sahih' && 'text-green-500'
+            )}
+          >
+            {hadith.status}
           </span>
         </div>
       </div>

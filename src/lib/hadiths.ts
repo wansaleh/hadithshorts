@@ -6,6 +6,10 @@ import { join } from 'path';
 
 const hadithsDirectory = join(process.cwd(), '_hadiths');
 
+export enum HadithStatus {
+  Sahih = 'Sahih',
+  Dai = 'Daif',
+}
 export type Hadith = {
   number?: number;
   slug: string;
@@ -15,6 +19,7 @@ export type Hadith = {
   topics: string[];
   // excerpt?: string;
   date: string;
+  status?: HadithStatus;
 };
 export type Topic = {
   topic: string;
@@ -49,6 +54,7 @@ function getHadithByPath(fullPath: string): Hadith {
     narrators: data.narrators,
     topics: data.topics ?? null,
     date: fileStats.mtime.toISOString(),
+    status: data.status,
   };
 }
 

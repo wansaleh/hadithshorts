@@ -5,6 +5,7 @@ narrators:
 topics:
 - Ibadah
 - Penampilan
+status: Sahih
 ---
 
 <p lang="ar">مَنْ تَشَبَّهَ بِقَوْمٍ فَهُوَ مِنْهُمْ</p>

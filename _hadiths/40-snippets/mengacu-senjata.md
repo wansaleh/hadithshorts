@@ -4,6 +4,7 @@ narrators:
 - Bukhari
 topics:
 - Senjata
+status: Sahih
 ---
 
 <p lang="ar">

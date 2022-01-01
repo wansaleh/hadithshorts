@@ -5,6 +5,7 @@ narrators:
 topics:
 - Ibadah
 - Kemanusiaan
+status: Sahih
 ---
 
 <p lang="ar">

@@ -6,6 +6,7 @@ topics:
 - Keluarga
 - Ibu Bapa
 - Syurga
+status: Sahih
 ---
 
 <p lang="ar">

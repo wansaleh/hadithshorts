@@ -6,6 +6,7 @@ topics:
 - Kemanusiaan
 - Pencuri
 - Perampas
+status: Sahih
 ---
 
 <p lang="ar">

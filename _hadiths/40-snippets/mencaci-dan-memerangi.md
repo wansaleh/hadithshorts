@@ -6,6 +6,7 @@ topics:
 - Kemanusiaan
 - Mengumpat
 - Perang
+status: Sahih
 ---
 
 <p lang="ar">

@@ -6,6 +6,7 @@ narrators:
 - Muslim
 topics:
 - Peribadi
+status: Sahih
 ---
 
 Allah menjadi cemburu [terhadap kemuliaanNya] dan ketika itulah seorang mukmin melakukan sesuatu yang dilarangNya.

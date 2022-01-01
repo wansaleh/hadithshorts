@@ -5,6 +5,7 @@ narrators:
 topics:
 - Kemanusiaan
 - Cinta
+status: Sahih
 ---
 
 <p lang="ar">
