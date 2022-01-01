@@ -9,4 +9,4 @@ topics:
 status: Sahih
 ---
 
-Jika seseorang berkata kepada saudaranya [Muslim], “Wahai Kafir (kafir)”, maka [pernyataan] itu akan kembali kepada salah seorang daripada mereka.
+Jika seseorang berkata kepada saudaranya, “Wahai Kafir (kafir)”, maka [pernyataan] itu akan kembali kepada salah seorang daripada mereka.
