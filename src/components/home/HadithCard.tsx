@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import remarkSmartypants from 'remark-smartypants';
 
-import { Hadith, HadithStatus } from '@/lib/hadiths';
+import { Hadith } from '@/lib/hadiths';
 
 export default function HadithCard({ hadith }: { hadith: Hadith }) {
   const wordCount = hadith.content.split(' ').length;
