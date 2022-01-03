@@ -1,0 +1,101 @@
+import { Directus } from '@directus/sdk';
+import { orderBy, shuffle, uniq } from 'lodash-es';
+
+export type Hadith = {
+  id: number;
+  slug: string;
+  title: string;
+  content: string;
+  content_ar: string;
+  narrators: string[] | any;
+  topics: string[] | any;
+  // excerpt?: string;
+  date: string;
+  sahih?: boolean;
+};
+export type Topic = {
+  topic: string;
+  count: number;
+};
+export type Narrator = {
+  name: string;
+  count: number;
+};
+
+type MyCollections = {
+  hadith: Hadith;
+  hadith_topic: { id: number; name: string };
+  hadith_narrator: { id: number; name: string };
+};
+
+const directus = new Directus<MyCollections>('https://islamapps.wansal.co');
+
+export async function getAllHadiths(): Promise<Hadith[]> {
+  const _hadiths = await directus.items('hadith').readMany({
+    meta: 'total_count',
+    fields: [
+      'id',
+      'title',
+      'content',
+      'content_ar',
+      'narrators.hadith_narrator_id.name',
+      'topics.hadith_topic_id.name',
+      'sahih',
+    ],
+  });
+
+  const hadiths =
+    _hadiths.data?.map((hadith) => ({
+      ...hadith,
+      narrators: hadith.narrators?.map(
+        ({ hadith_narrator_id }) => hadith_narrator_id.name
+      ),
+      topics: hadith.topics?.map(({ hadith_topic_id }) => hadith_topic_id.name),
+    })) || [];
+
+  return hadiths;
+}
+
+export async function getAllNarrators(): Promise<Narrator[]> {
+  const hadith_narrators = await directus.items('hadith_narrator').readMany({
+    meta: 'total_count',
+    fields: ['id', 'name'],
+  });
+
+  const _narrators: string[] = uniq(
+    hadith_narrators.data?.map((nar) => nar.name) || []
+  );
+
+  const narrators: Narrator[] = [];
+  _narrators.forEach((narrator) => {
+    const count = hadiths.filter((hadith) =>
+      hadith.narrators.includes(narrator)
+    ).length;
+
+    narrators.push({ name: narrator, count });
+  });
+
+  return orderBy(narrators, 'count', 'desc');
+}
+
+export async function getAllTopics(): Promise<Topic[]> {
+  const hadiths = await getAllHadiths();
+
+  const _topics: string[] = uniq(
+    hadiths
+      .map((hadith: Hadith) => hadith.topics)
+      .filter(Boolean)
+      .flat()
+  );
+
+  const topics: Topic[] = [];
+  _topics.forEach((topic) => {
+    const count = hadiths.filter((hadith) =>
+      hadith.topics.includes(topic)
+    ).length;
+
+    topics.push({ topic, count });
+  });
+
+  return orderBy(topics, 'count', 'desc');
+}
