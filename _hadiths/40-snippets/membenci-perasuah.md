@@ -1,5 +1,5 @@
 ---
-title: Membenci Perasuah
+title: Membenci Rasuah
 narrators:
 - Abu Daud
 topics:

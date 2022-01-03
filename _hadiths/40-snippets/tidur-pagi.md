@@ -1,7 +1,7 @@
 ---
 title: Tidur Pagi
 narrators:
-- Ahmad bin Hanbal
+- Ahmad
 topics:
 - Akhlak
 - Tidur

@@ -1,7 +1,7 @@
 {
   "name": "next-starter",
   "scripts": {
-    "dev": "next-remote-watch _hadiths",
+    "dev": "PORT=6464 next-remote-watch _hadiths",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
