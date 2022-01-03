@@ -15,7 +15,7 @@ export type Hadith = {
   slug: string;
   title: string;
   content: string;
-  narrators: string;
+  narrators: string[];
   topics: string[];
   // excerpt?: string;
   date: string;

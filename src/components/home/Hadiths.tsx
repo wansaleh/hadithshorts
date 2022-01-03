@@ -1,8 +1,7 @@
 import Fuse from 'fuse.js';
-import { useEffect, useRef, useState } from 'react';
-import { useKey } from 'react-use';
+import { useEffect, useState } from 'react';
 
-import { Hadith, Narrator, Topic } from '@/lib/hadiths';
+import type { Hadith, Narrator, Topic } from '@/lib/hadiths';
 
 import HadithCard from './HadithCard';
 import HadithFilters from './HadithFilters';
