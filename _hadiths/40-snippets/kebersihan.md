@@ -10,4 +10,4 @@ status: Sahih
 
 <p lang="ar">الطُّهُورُ شَطْرُ الإِيمَانِ</p>
 
-Kebersihan adalah sebagian iman.
+Kebersihan adalah sebagian dari iman.
