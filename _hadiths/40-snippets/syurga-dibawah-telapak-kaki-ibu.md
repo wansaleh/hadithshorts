@@ -1,7 +1,7 @@
 ---
 title: Syurga Di Bawah Telapak Kaki Ibu
 narrators:
-- Anas bin Malik
+- An-Nasai
 topics:
 - Keluarga
 - Ibu Bapa
