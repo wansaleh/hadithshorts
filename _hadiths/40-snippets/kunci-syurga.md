@@ -1,7 +1,7 @@
 ---
 title: Kunci Syurga
 narrators:
-- Ahmad
+- Tirmizi
 topics:
 - Ibadah
 - Solat
