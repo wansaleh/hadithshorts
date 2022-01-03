@@ -4,7 +4,7 @@ narrators:
 - Bukhari
 topics:
 - Iman
-- Ibadat
+- Ibadah
 - Niat
 status: Sahih
 ---

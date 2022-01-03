@@ -5,7 +5,7 @@ narrators:
 - Bukhari
 - Muslim
 topics:
-- Khutbah Jumaat
+- Jumaat
 - Ibadah
 status: Sahih
 ---

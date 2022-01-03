@@ -9,7 +9,7 @@ import {
   Topic,
 } from '@/lib/hadiths';
 
-import HadithCards from '@/components/home/HadithCards';
+import Hadiths from '@/components/home/Hadiths';
 import MuhammadSeal from '@/components/MuhammadSeal';
 
 import Nav from '../components/Nav';
@@ -54,11 +54,7 @@ export default function Home({
           </p>
 
           <div className="mt-10">
-            <HadithCards
-              hadiths={hadiths}
-              narrators={narrators}
-              topics={topics}
-            />
+            <Hadiths hadiths={hadiths} narrators={narrators} topics={topics} />
           </div>
         </div>
       </div>
