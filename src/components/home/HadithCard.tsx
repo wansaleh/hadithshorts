@@ -6,7 +6,13 @@ import remarkSmartypants from 'remark-smartypants';
 
 import { Hadith } from '@/lib/hadiths';
 
-export default function HadithCard({ hadith }: { hadith: Hadith }) {
+export default function HadithCard({
+  hadith,
+  setCurrentTopic,
+}: {
+  hadith: Hadith;
+  setCurrentTopic: (topic: string) => void;
+}) {
   const wordCount = hadith.content.split(' ').length;
 
   return (
@@ -22,12 +28,14 @@ export default function HadithCard({ hadith }: { hadith: Hadith }) {
         {hadith.topics && (
           <div className="flex gap-2 mb-4">
             {hadith.topics.map((topic) => (
-              <span
+              <button
                 key={topic}
+                type="button"
                 className="dark:bg-white dark:text-black inline-block py-1 px-2 text-sm font-bold leading-none text-white bg-black rounded-full"
+                onClick={() => setCurrentTopic(topic)}
               >
                 {topic}
-              </span>
+              </button>
             ))}
           </div>
         )}

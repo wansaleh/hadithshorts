@@ -68,7 +68,11 @@ export default function Hadiths({
 
       <div className="md:grid-cols-2 lg:grid-cols-3 grid grid-cols-1 gap-8">
         {filtered.map((hadith) => (
-          <HadithCard key={hadith.slug} hadith={hadith} />
+          <HadithCard
+            key={hadith.slug}
+            hadith={hadith}
+            setCurrentTopic={setCurrentTopic}
+          />
         ))}
       </div>
     </>

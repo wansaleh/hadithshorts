@@ -1,3 +1,5 @@
+import { orderBy } from 'lodash-es';
+
 import type { Narrator, Topic } from '@/lib/hadiths';
 
 import Btn from '../Btn';
@@ -44,7 +46,7 @@ export default function HadithFilters({
         >
           Semua
         </Btn>
-        {topics.map(({ topic }) => (
+        {orderBy(topics, 'topic', 'asc').map(({ topic }) => (
           <Btn
             key={topic}
             isSelected={topic === currentTopic}
