@@ -4,6 +4,7 @@ narrators:
 - Abu Daud
 topics:
 - Kemanusiaan
+- Akhlak
 - Rasuah
 status: Sahih
 ---

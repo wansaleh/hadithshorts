@@ -4,6 +4,7 @@ narrators:
 - Bukhari
 topics:
 - Kemanusiaan
+- Akhlak
 - Salam
 status: Sahih
 ---
