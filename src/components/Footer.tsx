@@ -10,6 +10,13 @@ export default function Footer() {
           Hijri Holidays
         </a>
         <a
+          href="https://solat.wansaleh.com"
+          rel="external"
+          className="hover:border-0 border-b-2 border-current"
+        >
+          Waktu Solat
+        </a>
+        <a
           href="https://panduantarawih.com"
           rel="external"
           className="hover:border-0 border-b-2 border-current"
