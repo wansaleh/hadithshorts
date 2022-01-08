@@ -8,4 +8,4 @@ topics:
 status: Sahih
 ---
 
-Allah Ta'ala mengangakat darjat berapa kaum melalui kitab in (Al-Quran) dan Dia merendahkan beberapa kaum lainnya melalui kitab ini juga.
+Allah Ta'ala mengangkat darjat berapa kaum melalui kitab in (Al-Quran) dan Dia merendahkan beberapa kaum lainnya melalui kitab ini juga.
