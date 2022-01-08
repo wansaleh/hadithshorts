@@ -13,4 +13,4 @@ status: Sahih
 لاَ يَدْخُلُ الجَنّةَ خَبٌّ وَلاَ بَخِيْلٌ وَلاَ مَنَّانٌ
 </p>
 
-Tidak akan masuk surga orang yang suka menipu, pelit dan mengungkit pemberian.
+Tidak akan masuk syurga orang yang suka menipu, pelit dan mengungkit pemberian.
