@@ -2,6 +2,10 @@
 title: Belajar Al-Quran
 narrators:
 - Bukhari
+- Abu Daud
+- Tirmizi
+- Nasai
+- Ibnu Majah
 topics:
 - Ibadah
 - Quran

@@ -16,14 +16,7 @@ export default function HadithCard({
   const wordCount = hadith.content.split(' ').length;
 
   return (
-    <div
-      key={hadith.slug}
-      className="relative p-8 rounded-3xl border-4 border-current"
-    >
-      {/* <div className="-z-0 absolute bottom-2 right-4 text-8xl font-bold tracking-tighter leading-none opacity-5">
-        {hadith.number}
-      </div> */}
-
+    <div className="relative p-8 rounded-3xl border-4 border-current">
       <div className="flex relative z-10 flex-col h-full">
         {hadith.topics && (
           <div className="flex gap-2 mb-4">
@@ -65,7 +58,7 @@ export default function HadithCard({
 
         <div className="flex-1" />
 
-        <div className="flex justify-between items-end mt-16">
+        <div className="flex justify-between items-end mt-16 text-sm">
           <span className="font-light">
             <span>Riwayat</span>{' '}
             <span className="font-bold">
@@ -73,14 +66,14 @@ export default function HadithCard({
             </span>
           </span>
 
-          <span
+          {/* <span
             className={clsx(
               'uppercase text-sm font-bold',
               hadith.status === 'Sahih' && 'text-green-500'
             )}
           >
             {hadith.status}
-          </span>
+          </span> */}
         </div>
       </div>
     </div>

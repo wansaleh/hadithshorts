@@ -1,7 +1,7 @@
 ---
 title: Syurga Di Bawah Telapak Kaki Ibu
 narrators:
-- An-Nasai
+- Nasai
 topics:
 - Keluarga
 - Ibu Bapa
